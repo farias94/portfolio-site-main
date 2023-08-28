@@ -1,0 +1,13 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#imageHolder img{
+width: 50%;
+height: auto;
+}
+#imageHolder{
+    width: 100%;
+}
+body{
+    padding: 2em;
+}
