@@ -34,26 +34,53 @@ font-stretch: 150%;
 h1{
     text-decoration: none;
     color: black;
-    font-size: 5rem;
+    height: auto;
+    margin: auto;
     text-decoration: none;
 }
+#name{
+    font-family: "hwt-roman-extended-light-fac", serif;
+    font-size: calc(12vw - 20px);
+    font-weight: lighter;
+    letter-spacing: -.5rem;
+    
+    font-stretch: 200%;
+width: 100%;}
+#bio{
+    
+    font-size: clamp(2vw,1rem,4rem);
+    padding: 1rem;
+    width: 90vw;
+    font-weight: lighter;
+    font-family: "ivyepic-variable", sans-serif;}
 
 /** Projects */
 
 .project{
     list-style: none;
     padding: 20px;
-    color: black;
+    color: rgb(9, 9, 9);
 }
 
 #projectHolder{
-    padding: 5em 0px 0px  5em;
+    padding-bottom: 5em;
     display: grid;
+    text-align: center;
+    width: 100%;
+    
     grid-template-columns: minmax(100px, 1fr);
     grid-template-rows: minmax(4fr, auto);
 }
-#projectHolder {
-    width: 75%;
+#projectHolder h1 {
+    font-family: "ivyepic-variable", sans-serif;
+    font-weight: 400;
+    padding-bottom: 2rem;
+font-size: 5rem;}
+.imageHolder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
 }
 #glaxiclean{
     grid-row:1;
@@ -68,6 +95,17 @@ h1{
 #glaxiclean img{
     width:50%;
 }
+#gcvideo{
+    width: 40%;
+}
+
+#glaxicleanImageHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
 #marcusbuildinggroup{
     grid-column: 1fr;
     grid-row: 2;

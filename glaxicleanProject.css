@@ -1,4 +1,5 @@
 *{
+
 }
 
 @font-face {
@@ -6,12 +7,33 @@
     src: url('./fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
 }
 body{
-    padding: 5rem;
+    font-size: 1rem;
+    padding: 1rem;
+    max-width: 100%;
 
+}
+#projectBody{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+#projectBody p{
+    font-size: 1rem;
+    padding: 2rem;
 }
 #imageHolder img{
     padding: 2rem;
     width: 50%;
+}
+#projectLink{
+     font-family: "ivyepic-variable", sans-serif;
+
+    color: black;
+
+}
+#projectLink a{
+    text-decoration: none;
+    color: black;
 }
 #vid{
     width: 40%;
@@ -19,4 +41,27 @@ body{
 }
 #elements{
     font-family: 'Comfortaa';
+}
+
+.colorSquare{
+    display:inline-block;
+    background-color: #A9DBDC;
+    width: 2rem;
+    height: 2rem;
+padding-right: 2rem;}
+#colors ul{
+    list-style-type: none;
+}
+#colors{
+    padding-left: 2rem;
+    font-size: 2rem;
+    width: 100%;
+}
+.colorList{
+    padding-left: 120px;
+}
+#color2{
+    min-width: 2em;
+
+    background-color: #33358B;
 }
